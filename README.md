@@ -13,9 +13,9 @@ The dataset consisted of jpg files of plants and their corresponding true label 
 
 ## Model Architecture: (VGG-16 with 3 FC Layers)
 
-VGG(
+```VGG(
 
-  (features): Sequential(
+  (features): Sequential(```
   
     (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
     
@@ -99,7 +99,7 @@ VGG(
     
     (output): LogSoftmax()
   )
-)
+)```
 
 Model's Hyperparameters:
 
