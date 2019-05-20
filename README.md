@@ -13,7 +13,7 @@ The dataset consisted of jpg files of plants and their corresponding true label 
 
 ## Model Architecture: (VGG-16 with 3 FC Layers)
 
-``VGG(
+VGG(
 
   (features): Sequential(
   
@@ -99,7 +99,7 @@ The dataset consisted of jpg files of plants and their corresponding true label 
     
     (output): LogSoftmax()
   )
-)``
+)
 
 Model's Hyperparameters:
 
@@ -112,10 +112,16 @@ Results:
 
 * Accuracy: 81.4
 
-Command Line Application:
+## Command Line Application:
 
-* 
-* Using predict.py file to single prediction:
+Command line options using predict.py file for a single prediction:
+  * --input_image: Directory of image to be used for prediction
+  * --category_names: File containing a dictionary of the index and label of plant species
+  * --checkpoint: Trained model
+  * --top_k: Number of rankings to display that are below top prediction
+  * --device: GPU or CPU (GPU preferred)
+
+Example command line prompt:
 ```python predict.py --input_image flowers/valid/1/image_06739.jpg --category_names cat_to_name.json --checkpoint checkpoint.tar --top_k 5 --device gpu```
 
 
