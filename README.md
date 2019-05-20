@@ -4,7 +4,7 @@
 Project code for Udacity's AI Programming with Python Nanodegree program. In this project, I develop code for an image classifier built with PyTorch, then convert it into a command line application. 
 
 ## Data:
-The dataset consisted of jpg files of plants and their corresponding true label of what species of plants they are. There are a total of 102 possible lables. 
+The dataset consisted of plant photos (jpg) and their corresponding true label of what species of plants they are. There are a total of 102 possible lables. 
 
 ## Processing:
 
