@@ -13,9 +13,9 @@ The dataset consisted of jpg files of plants and their corresponding true label 
 
 ## Model Architecture: (VGG-16 with 3 FC Layers)
 
-```VGG(
+`VGG(
 
-  (features): Sequential(```
+  (features): Sequential(
   
     (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
     
@@ -99,7 +99,7 @@ The dataset consisted of jpg files of plants and their corresponding true label 
     
     (output): LogSoftmax()
   )
-)```
+)`
 
 Model's Hyperparameters:
 
@@ -114,7 +114,7 @@ Results:
 
 Command Line Application:
 
-* ``
+* 
 * Using predict.py file to single prediction:
 ```python predict.py --input_image flowers/valid/1/image_06739.jpg --category_names cat_to_name.json --checkpoint checkpoint.tar --top_k 5 --device gpu```
 
