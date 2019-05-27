@@ -1,9 +1,6 @@
 # AI Programming with Python Project
 
 ## Description:
-# AI Programming with Python Project
-
-## Description:
 
 VGG-16 model that predicts the possible plant species of an input image. 
 
